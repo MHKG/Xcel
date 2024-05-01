@@ -1,0 +1,15 @@
+version: '3'
+services:
+  playground-web-frontend:
+    image: playground-web-frontend:latest
+    environment:
+      PORT: 3000
+      PROXY_API: http://playground-web-backend:8080/
+    ports:
+      - 3000:3000
+  playground-web-backend:
+    image: playground-web-backend:latest
+    environment:
+      MONGODB_URI: mongodb+srv://<user>:<password>@<your cluster>/todo?retryWrites=true&w=majority
+    ports:
+      - 8080:8080
