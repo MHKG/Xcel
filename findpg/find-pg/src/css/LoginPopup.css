@@ -1,0 +1,88 @@
+.modal-dialog-centered {
+	display: flex;
+	align-items: center;
+}
+
+.modal-content {
+	position: relative;
+	width: 400px;
+	height: 460px;
+	background: #ffffff;
+	border-radius: 12px;
+}
+
+.enterNumber {
+	position: absolute;
+	width: 190px;
+	height: 24px;
+	top: 50px;
+	font-family: "Open Sans";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 24px;
+	color: #6b788e;
+}
+
+.countryCode {
+	box-sizing: border-box;
+	position: absolute;
+	width: 68px;
+	height: 56px;
+	top: 86px;
+	border: 1px solid #dfe2e6;
+	border-radius: 4px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	padding-right: 1.75rem;
+	background-repeat: no-repeat;
+	background-position: right 8px center;
+}
+
+.countryCode::-ms-expand {
+	display: none;
+}
+
+.countryCode option:checked {
+	font-weight: bold;
+}
+
+.flag-icon {
+	position: absolute;
+	width: 20px;
+	height: 16px;
+	top: 168px;
+	left: 32px;
+	gap: 0px;
+	border-radius: 2px 0px 0px 0px;
+	opacity: 0px;
+	border-radius: 2px;
+}
+
+.phoneNumber {
+	box-sizing: border-box;
+	position: absolute;
+	width: 276px;
+	height: 56px;
+	right: 24px;
+	top: 86px;
+	border: 1px solid #dfe2e6;
+	border-radius: 4px;
+}
+
+.continue {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 12px 36px;
+	gap: 8px;
+	position: absolute;
+	width: 352px;
+	height: 48px;
+	left: 24px;
+	top: 166px;
+	background: #2765dd;
+	border-radius: 8px;
+}

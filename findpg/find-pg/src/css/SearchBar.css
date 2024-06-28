@@ -1,0 +1,73 @@
+.searchBar {
+	position: absolute;
+	width: 800px !important;
+	height: 64px;
+	background: #ffffff;
+	border-radius: 40px !important;
+}
+
+.searchBar::placeholder {
+	position: absolute;
+	width: 112px;
+	height: 24px;
+	left: 32px;
+	top: 20px;
+	font-family: "Open Sans";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	color: #6b788e;
+}
+
+.find {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 8px;
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	left: 625px;
+	background: rgba(39, 101, 221, 0.1);
+	border-radius: 100px;
+}
+
+.searchBtn {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 8px 12px;
+	gap: 4px;
+	position: absolute;
+	width: 103px;
+	height: 40px;
+	left: 681px;
+	background: #2765dd;
+	border-radius: 20px;
+}
+
+.searchIcon {
+	width: 24px;
+	height: 24px;
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+
+.searchText {
+	width: 51px;
+	height: 24px;
+	font-family: "Open Sans";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	color: #ffffff;
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+}

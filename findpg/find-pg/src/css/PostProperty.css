@@ -1,0 +1,39 @@
+.custom-modal .modal-content {
+	width: 800px;
+	height: 850px;
+	background: #ffffff;
+	border-radius: 12px;
+	padding: 20px;
+}
+
+.custom-modal-header {
+	border-bottom: none;
+}
+
+.custom-modal-title {
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+
+.custom-form-group {
+	margin-bottom: 1rem;
+}
+
+.custom-form-label {
+	font-weight: bold;
+	font-size: 1rem;
+}
+
+.custom-form-control,
+.custom-form-select {
+	border-radius: 6px;
+	padding: 10px;
+	font-size: 1rem;
+}
+
+.custom-button {
+	width: 100%;
+	padding: 10px;
+	font-size: 1rem;
+	border-radius: 6px;
+}

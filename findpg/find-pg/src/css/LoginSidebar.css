@@ -1,0 +1,80 @@
+.loginSidebar {
+	position: absolute;
+	width: 336px;
+	height: 100px;
+	left: 32px;
+	top: 100px;
+	background: #f5f6f7;
+	border-radius: 8px;
+}
+
+.loginIcon {
+	position: absolute;
+	width: 76px;
+	height: 76px;
+	left: 12px;
+	top: 12px;
+	background: #ffffff;
+}
+
+.login-register {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0px;
+	gap: 4px;
+	position: absolute;
+	width: 145px;
+	height: 52px;
+	left: 100px;
+	top: 24px;
+}
+
+.hi {
+	width: 70px;
+	height: 20px;
+	font-family: "Open Sans";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	color: #6b788e;
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	margin: 0px;
+}
+
+.loginButton {
+	cursor: pointer;
+	width: 145px;
+	height: 28px;
+	font-family: "Open Sans";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 28px;
+	color: #243757;
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+	border: none;
+	background-color: transparent;
+}
+
+.postProperty {
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	padding: 16px 36px 16px 16px;
+	gap: 8px;
+	position: absolute;
+	width: 336px;
+	height: 56px;
+	top: 150px;
+	border-bottom: 1px solid #ebedf0;
+	background-color: #ffffff;
+	border: 0px 0px 1px 0px;
+}

@@ -1,0 +1,22 @@
+.accountCreatedText {
+	position: absolute;
+	width: 206px;
+	height: 64px;
+	left: calc(50% - 206px / 2);
+	top: 132px;
+	font-family: "Open Sans";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 32px;
+	text-align: center;
+	color: #243757;
+}
+
+.accountCreatedTick {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	left: calc(50% - 100px / 2);
+	top: 228px;
+}
